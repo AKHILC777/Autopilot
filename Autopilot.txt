@@ -1,0 +1,10 @@
+GITHUB META: https://github.com/AKHILC777/Autopilot
+
+•	Press Shift+F10 or Shift+Fn+F10 and it will open command prompt.
+•	Type PowerShell & Press Enter.
+•	Create the UPLAutopilot directory:
+New-Item -Path "C:\UPLAutopilot\DeviceHash" -ItemType Directory
+•	Create the DeviceHash directory inside UPLAutopilot:
+New-Item -Path "C:\UPLAutopilot\DeviceHash" -ItemType Directory
+•	Download the file from the URL and save it to the DeviceHash folder:
+(New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/AKHILC777/Autopilot/13c26605021096fbbc3d84d987961eaa0bab3598/Upload-AutopilotHash_Global_Win11_64_New.zip", "C:\UPLAutopilot\DeviceHash\Upload-AutopilotHash_Global_Win11_64_New.zip"))
